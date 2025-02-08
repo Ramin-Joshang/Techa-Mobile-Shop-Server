@@ -4,8 +4,8 @@ const fs = require('fs')
 const path = require('path')
 const jwt = require('jsonwebtoken')
 
-// const dataPath = path.join(__dirname, '../../server/data/numbers.json')
-const dataPath = "../data/numbers.json"
+const dataPath = path.join(__dirname, '/../data/numbers.json')
+// const dataPath = "../data/numbers.json"
 
 // Middleware برای احراز هویت
 const authenticate = (req, res, next) => {

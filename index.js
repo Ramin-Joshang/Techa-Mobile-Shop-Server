@@ -13,7 +13,7 @@ app.use(express.json())
 app.use('/api/auth', authRoutes)
 app.use('/api/numbers', numberRoutes)
 
-const PORT = process.env.PORT || 8000
+const PORT = 7000
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`)
 })
